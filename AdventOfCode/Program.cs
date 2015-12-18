@@ -10,7 +10,7 @@ namespace AdventOfCode
     {
         static void Main(string[] args)
         {
-            Problem15.Solve();
+            Problem18.Solve();
 
             Console.ReadKey();
         }
