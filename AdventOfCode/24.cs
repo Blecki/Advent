@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode
 {
-    class Program
-    {
-        static void Main(string[] args)
+    internal class Problem24
+    {        
+        public static void Solve()
         {
-            Problem24.Solve();
-
-            Console.ReadKey();
+            var input = System.IO.File.ReadAllLines("24Input.txt");
         }
     }
 }
