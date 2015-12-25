@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="03.cs" />
     <Compile Include="17 - Copy.cs" />
+    <Compile Include="25.cs" />
+    <Compile Include="24.cs" />
     <Compile Include="23.cs" />
     <Compile Include="22.cs" />
     <Compile Include="21.cs" />
@@ -75,6 +77,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="25Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="24Input.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="23Input.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
